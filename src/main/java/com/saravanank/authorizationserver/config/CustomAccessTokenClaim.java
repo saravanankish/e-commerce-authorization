@@ -17,11 +17,12 @@ public class CustomAccessTokenClaim implements OAuth2TokenCustomizer<JwtEncoding
 
 	@Override
 	public void customize(JwtEncodingContext context) {
-		// TODO Auto-generated method stub
 		User user = userService.findByUsername(context.getPrincipal().getName());
-		logger.info("Returned token for user with role " + user.getRole());
-		context.getClaims().claims(existingClaims -> {
-			existingClaims.put("role", user.getRole());
-		});
+		if(user != null && user.getRole() != null) {			
+			logger.info("Returned token for user with role " + user.getRole());
+			context.getClaims().claims(existingClaims -> {
+				existingClaims.put("role", user.getRole());
+			});
+		}
 	}
 }
