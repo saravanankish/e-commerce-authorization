@@ -15,3 +15,49 @@
 [2022-08-21 12:19:31,595] com.saravanank.authorizationserver.service.CustomAuthProvider 42 INFO   -  User authenicated successfully
 [2022-08-21 12:19:34,223] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username admin was requested
 [2022-08-21 12:19:34,232] com.saravanank.authorizationserver.config.CustomAccessTokenClaim 23 INFO   -  Returned token for user with role ADMIN
+[2022-08-22 11:57:06,903] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username e-commerce-site.TJQfmiEHV1ibmQ2nz0BsZ9Td44I1SZ5V was requested
+[2022-08-22 12:35:39,881] com.saravanank.authorizationserver.service.UserService 35 INFO   -  User with username admin was sent
+[2022-08-22 12:35:39,883] com.saravanank.authorizationserver.service.CustomAuthProvider 36 INFO   -  User authentication request received
+[2022-08-22 12:35:40,068] com.saravanank.authorizationserver.service.CustomAuthProvider 42 INFO   -  User authenicated successfully
+[2022-08-22 12:35:43,293] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username admin was requested
+[2022-08-22 12:35:43,297] com.saravanank.authorizationserver.config.CustomAccessTokenClaim 22 INFO   -  Returned token for user with role ADMIN
+[2022-08-22 13:24:26,256] com.saravanank.authorizationserver.service.UserService 35 INFO   -  User with username customer was sent
+[2022-08-22 13:24:26,256] com.saravanank.authorizationserver.service.CustomAuthProvider 36 INFO   -  User authentication request received
+[2022-08-22 13:24:26,427] com.saravanank.authorizationserver.service.CustomAuthProvider 42 INFO   -  User authenicated successfully
+[2022-08-22 13:24:29,389] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username customer was requested
+[2022-08-22 13:24:29,393] com.saravanank.authorizationserver.config.CustomAccessTokenClaim 22 INFO   -  Returned token for user with role CUSTOMER
+[2022-08-22 15:17:57,188] com.saravanank.authorizationserver.service.UserService 35 INFO   -  User with username admin was sent
+[2022-08-22 15:17:57,193] com.saravanank.authorizationserver.service.CustomAuthProvider 36 INFO   -  User authentication request received
+[2022-08-22 15:17:57,757] com.saravanank.authorizationserver.service.CustomAuthProvider 42 INFO   -  User authenicated successfully
+[2022-08-22 15:17:59,175] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username admin was requested
+[2022-08-22 15:17:59,182] com.saravanank.authorizationserver.config.CustomAccessTokenClaim 22 INFO   -  Returned token for user with role ADMIN
+[2022-08-22 15:18:53,341] com.saravanank.authorizationserver.service.UserService 35 INFO   -  User with username customer was sent
+[2022-08-22 15:18:53,343] com.saravanank.authorizationserver.service.CustomAuthProvider 36 INFO   -  User authentication request received
+[2022-08-22 15:18:54,179] com.saravanank.authorizationserver.service.CustomAuthProvider 42 INFO   -  User authenicated successfully
+[2022-08-22 15:18:55,436] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username customer was requested
+[2022-08-22 15:18:55,440] com.saravanank.authorizationserver.config.CustomAccessTokenClaim 22 INFO   -  Returned token for user with role CUSTOMER
+[2022-08-22 15:19:20,793] com.saravanank.authorizationserver.service.UserService 35 INFO   -  User with username admin was sent
+[2022-08-22 15:19:20,793] com.saravanank.authorizationserver.service.CustomAuthProvider 36 INFO   -  User authentication request received
+[2022-08-22 15:19:21,211] com.saravanank.authorizationserver.service.CustomAuthProvider 42 INFO   -  User authenicated successfully
+[2022-08-22 15:19:22,710] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username admin was requested
+[2022-08-22 15:19:22,722] com.saravanank.authorizationserver.config.CustomAccessTokenClaim 22 INFO   -  Returned token for user with role ADMIN
+[2022-08-22 16:46:07,655] com.saravanank.authorizationserver.service.UserService 35 INFO   -  User with username admin was sent
+[2022-08-22 16:46:07,660] com.saravanank.authorizationserver.service.CustomAuthProvider 36 INFO   -  User authentication request received
+[2022-08-22 16:46:08,134] com.saravanank.authorizationserver.service.CustomAuthProvider 42 INFO   -  User authenicated successfully
+[2022-08-22 16:46:09,569] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username admin was requested
+[2022-08-22 16:46:09,576] com.saravanank.authorizationserver.config.CustomAccessTokenClaim 22 INFO   -  Returned token for user with role ADMIN
+[2022-08-22 17:01:11,916] com.saravanank.authorizationserver.service.UserService 35 INFO   -  User with username customer was sent
+[2022-08-22 17:01:11,917] com.saravanank.authorizationserver.service.CustomAuthProvider 36 INFO   -  User authentication request received
+[2022-08-22 17:01:12,584] com.saravanank.authorizationserver.service.CustomAuthProvider 42 INFO   -  User authenicated successfully
+[2022-08-22 17:01:14,698] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username customer was requested
+[2022-08-22 17:01:14,704] com.saravanank.authorizationserver.config.CustomAccessTokenClaim 22 INFO   -  Returned token for user with role CUSTOMER
+[2022-08-22 17:06:31,104] com.saravanank.authorizationserver.service.UserService 35 INFO   -  User with username admin was sent
+[2022-08-22 17:06:31,106] com.saravanank.authorizationserver.service.CustomAuthProvider 36 INFO   -  User authentication request received
+[2022-08-22 17:06:31,690] com.saravanank.authorizationserver.service.CustomAuthProvider 42 INFO   -  User authenicated successfully
+[2022-08-22 17:06:33,149] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username admin was requested
+[2022-08-22 17:06:33,159] com.saravanank.authorizationserver.config.CustomAccessTokenClaim 22 INFO   -  Returned token for user with role ADMIN
+[2022-08-25 10:30:45,012] com.saravanank.authorizationserver.service.UserService 35 INFO   -  User with username admin was sent
+[2022-08-25 10:30:45,022] com.saravanank.authorizationserver.service.CustomAuthProvider 36 INFO   -  User authentication request received
+[2022-08-25 10:30:45,262] com.saravanank.authorizationserver.service.CustomAuthProvider 42 INFO   -  User authenicated successfully
+[2022-08-25 10:30:47,737] com.saravanank.authorizationserver.service.UserService 50 INFO   -  User with username admin was requested
+[2022-08-25 10:30:47,744] com.saravanank.authorizationserver.config.CustomAccessTokenClaim 22 INFO   -  Returned token for user with role ADMIN
