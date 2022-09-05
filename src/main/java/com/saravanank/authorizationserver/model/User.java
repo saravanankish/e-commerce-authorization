@@ -26,6 +26,7 @@ public class User {
 	private String username;
 	private String password;
 	private String role;
+	private boolean emailVerified = false;
 	private boolean accountActive = true;
 	private Date creationTime;
 	private Date modifiedTime;

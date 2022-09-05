@@ -32,6 +32,10 @@ public class CustomAuthProvider implements AuthenticationProvider {
 		if(!user.isEnabled()) {
 			logger.info("User account of user tired to login was deleted");			
 			throw new AccountExpiredException("User account deleted");
+		} 
+		if(!user.isAccountNonLocked()) {
+			logger.info("User has not verified email address");
+			throw new AccountExpiredException("Email not verified");
 		}
 		logger.info("User authentication request received");
 		return checkPass(user, password);

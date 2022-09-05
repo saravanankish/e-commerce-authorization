@@ -34,7 +34,7 @@ public class UserService implements UserDetailsService {
 		}
 		logger.info("User with username " + username + " was sent");
 		return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(),
-				user.isAccountActive(), true, true, true, getAuthorities(Arrays.asList(user.getRole())));
+				user.isAccountActive(), true, true, user.isEmailVerified(), getAuthorities(Arrays.asList(user.getRole())));
 	}
 
 	private Collection<? extends GrantedAuthority> getAuthorities(List<String> roles) {
